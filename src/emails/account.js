@@ -1,4 +1,5 @@
 const postmark = require("postmark");
+
 const client = new postmark.Client(process.env.POSTMARK_API_KEY);
 const fs = require("fs");
 
